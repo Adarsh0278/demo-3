@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+/* navigetion */
+.logo{
+    font-size: 30px;
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    box-shadow: rgba(165, 164, 164, 0.11) 0px 10px 10px, rgba(165, 164, 164, 0.11) 0px 2px 5px;
+}
+nav>div{
+    /* background-color: brown; */
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.navoption{
+    display: flex;
+    gap: 25px;
+}
+.navoption a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+/* end navigetion */
+
+/* heros */
+.hero{
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.mainp{
+    width: 500px;
+    height: 550px;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.mainp>pre{
+    width: 600;
+}
+
+.hh1{
+    margin-right: 33px;
+}
+
+img{
+    height: 550px;
+    border-radius: 10px;
+}
+
+button{
+    margin-right: 10px;
+    border: none;
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.button1{
+    margin-top: 34px;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgb(66, 37, 208);
+}
+
+.button2{
+    height: 35px;
+    width: 130px;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgb(179, 175, 175);
+
+}
+
+/* end heros */
